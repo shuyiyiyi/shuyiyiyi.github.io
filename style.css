@@ -3,3 +3,98 @@
     width: 32px;
     height: 32px;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-container {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-brand {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.view-more {
+    border: 2px solid #D0b292;
+    color: #D0b292;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 5px 50px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.view-more:hover {
+    border: 2px solid #D0b292;
+    background-color: #D0b292;
+    color: white;
+}
+
+.content {
+    background-color: #f8f8f8;
+    width: 1000px;
+}
+
+.location {
+    border: 0 0 1px 0 solid #7a7a7a;
+}
+
+.loc-active {
+    color: #D1B290;
+}
+
+.size {
+    border: 1px solid #D0b292;
+    color: #D0b292;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 5px 28px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .1rem;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.size:hover {
+    border: 1px solid #D0b292;
+    background-color: #D0b292;
+    color: white;
+}
+
+.fixed {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    /* text-align: center; */
+}
+
+
+/* Collection */
+
+.collection-girls {
+    background-image: url("media/pics/girls.png");
+    min-height: 400px;
+}

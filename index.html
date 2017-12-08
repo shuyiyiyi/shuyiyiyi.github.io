@@ -4,147 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mnemne - Custmize your jewelry</title>
+    <title>Shuyi3</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 <body>
-
-    <div class="container-fluid p-0">
-        <div class="row landing m-0">
-            <div class="col-12 p-0">
-                <video width="100%" height="100%" autoplay loop>
+    <!-- question here: there is a _rebot.scss file preventing us from changing css in body. So we just created a bodu div in order to put css we was originally planned to put on body -->
+    <div class="bodydiv">
+        <div class="container-fluid p-0">
+            <!-- landing video -->
+            <div class="row m-0">
+                <div class="col-12 p-0">
+                    <video width="100%" height="100%" autoplay loop>
                     <source src="media/v.mp4" type="video/mp4">
                 </video>
+                </div>
             </div>
-        </div>
 
-        <div class="row sticky-top navbar-light navbar-container">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg">
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- navbar -->
+            <div class="sticky-top navbar">
+                <nav class="navbar navbar-light navbar-expand-md justify-content-between container container-width p-0 sticky-top">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <a href="index.html" class="navbar-brand mr-4">
+                    <img src="media/pics/logo.png" width="130" height="60" class="d-inline-block align-middle pl-2" alt="">
+                </a>
+                    <div class="navbar-collapse collapse dual-nav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Collections
-                                    <span class="sr-only">(current)</span>
-                                </a>
+                                <a class="nav-link pl-0" href="#">Collections
+                                <span class="sr-only">Collections</span>
+                            </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="seeall.html">See All</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Privacy & Terms</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="about.html">About Us</a>
                             </li>
+
                         </ul>
                     </div>
 
-                    <a class="navbar-brand ml-auto" href="index.html">
-                        <img src="media/pics/logo.png" width="130" height="60" class="d-inline-block align-middle" alt="">
-                    </a>
-
-                    <div class="search mr-3">
-                        <img src="media/pics/search.png" alt="search">
-                    </div>
-
-                    <div class="bag mr-2">
-                        <img src="media/pics/bag.png" alt="bag">
-                    </div>
-
-                </nav>
-
-                <nav class="navbar navbar-expand-lg">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <a class="navbar-brand mx-auto" href="#">NavBar</a>
-                    <div class="navbar-collapse collapse">
+                    <div class="navbar-collapse collapse dual-nav">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="">
+                                <img src="media/pics/search.png" alt="search" style="height:30px">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">
+                                <img src="media/pics/bag.png" alt="bag" style="height:30px">
+                                <i class="fa fa-github"></i>
+                            </a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
-        </div>
 
-        <div class="row collection m-0 collection-girls align-items-center">
-            <div class="col-12 p-0">
-                <div class="row align-items-center">
-                    <div class="col-1 m-auto">
-                        <a href="girls.html" class="btn btn-success">View More</a>
+            <!-- collection1 -->
+            <div class="row m-0 collection-love align-items-center">
+                <div class="col-12 p-0">
+                    <div class="row align-items-center">
+                        <div class="col-7 m-auto">
+                            <div class="title">
+                                <p>Love Letter</p>
+                                <a href="girls.html" class="btn btn-success center-block ">View More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- collection2 -->
+            <div class="row m-0 collection-girls align-items-center">
+                <div class="col-12 p-0">
+                    <div class="row align-items-center">
+                        <div class="col-7 m-auto">
+                            <div class="title">
+                                <p>Girls Party</p>
+                                <a href="girls.html" class="btn btn-success center-block ">View More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="row collection m-0">
-            <div class="col-12 p-0">
-                <img width="100%" height="100%" src="media/pics/c1.png" alt="collection 1">
-                <a href="girls.html">
-                    <button type="button" class="view-more float-left">VIEW MORE</button>
-                </a>
-                <div id="bounce" style="margin: auto; margin-top: -35vh;  height:45px; width:70px">
-                    <button class="view-more">VIEW MORE</button>
-                </div>
-                <img width="100%" height="100%" src="media/pics/c2.png" alt="collection 2">
-            </div>
-        </div>
-
-        <footer class="row footer">
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-4">
-                        <a href="collections.html">Collections</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <a href="seeall.html">See All</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <a href="privacy.html">Privacy & Terms</a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <a href="about.html">About Us</a>
-                    </div>
-                </div>
-
-            </div>
-        </footer>
-
     </div>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
-
+    <footer>
+        <div class="container container-width mt-5">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <p>
+                        <a href="#">HELP</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Orders & Returns</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Contact & FAQ</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Terms of Service</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Privacy Policy</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Sitemap – Collections</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Sitemap – Products</a>
+                    </p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <p>
+                        <a href="#">COMPANY</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Visit Us</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Factories</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">About</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Careers</a>
+                    </p>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3">
+                    <p>
+                        <a href="#">CONNECT</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Snapchat</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Instagram</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Twitter</a>
+                    </p>
+                    <p class="mb-0">
+                        <a href="#">Affiliates</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
